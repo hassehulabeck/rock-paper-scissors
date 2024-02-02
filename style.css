@@ -1,0 +1,10 @@
+#cpu, #score {
+    height: 3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: lightblue;
+}
+#score {
+    height: 2rem;
+    background-color: lightcyan;
+}
