@@ -21,8 +21,8 @@ buttons.addEventListener('click', (e) => {
 })
 
 const graphScore = () => {
-    playerScore.innerHTML = ""
-    cpuScore.innerHTML = ""
+    playerScore.innerHTML = "<article class='tag'>Player</article>"
+    cpuScore.innerHTML = "<article class='tag'>CPU</article>"
     for (let i=0; i < score.player; i++) {
         let playerdot = document.createElement("div")
         playerScore.appendChild(playerdot)

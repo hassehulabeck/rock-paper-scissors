@@ -11,11 +11,15 @@
 #playerScore, #cpuScore {
     display: flex;
 }
+.tag {
+    flex: 0 1 auto;
+    min-width: 10%;
+}
 #playerScore > div, #cpuScore > div {
     flex: 0 1 auto;
     border-radius: 50%;
     height: 1rem;
     width: 1rem;
-    margin: 0 1rem;
+    margin: 0 .4rem;
     background-color: #672231;
 }
